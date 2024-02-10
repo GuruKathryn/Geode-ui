@@ -14,6 +14,10 @@ module.exports = merge(
       hot: true,
       open: false,
       port: 3000,
+      allowedHosts: [
+       '.geodeapps.com',
+       'geodeapps.com'
+        ],
       static: path.resolve(__dirname, 'build')
     },
     plugins: [
